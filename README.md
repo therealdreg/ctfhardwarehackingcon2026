@@ -2,6 +2,6 @@
 
 CTF LIKE: https://github.com/therealdreg/hcon2026hwctf
 
-![pico2psrambydreg](pico2psrambydreg.jpg)
+![pico2psrambydreg](stuff/images/pico2psrambydreg.jpg)
 
 NOTE: THE CTF FIRMWARE ONLY WORKS ON DREG'S PICO2 PSRAM BOARD
