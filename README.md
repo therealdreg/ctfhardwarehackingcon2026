@@ -1,5 +1,7 @@
 # Hardware Hacking CTF HardwareHackingES CON 2026 - RISCV Hazard3 (@Wren6991) Exploiting by @b1n4ri0 & @therealdreg
 
+https://hardwarehacking.es/
+
 CTF LIKE: https://github.com/therealdreg/hcon2026hwctf
 
 ![pico2psrambydreg](stuff/images/pico2psrambydreg.jpg)
