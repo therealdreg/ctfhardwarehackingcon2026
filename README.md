@@ -7,3 +7,7 @@ CTF LIKE: https://github.com/therealdreg/hcon2026hwctf
 ![pico2psrambydreg](stuff/images/pico2psrambydreg.jpg)
 
 NOTE: THE CTF FIRMWARE ONLY WORKS ON DREG'S PICO2 PSRAM BOARD (RP2354A + PSRAM 64 Mbit APS6404L-3SQR-ZR)
+
+# TeraTerm / USB SERIAL COM CONFIG
+
+![teratermconfig](stuff/images/teratermconfig.png) 
