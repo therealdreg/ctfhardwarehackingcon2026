@@ -10,4 +10,6 @@ NOTE: THE CTF FIRMWARE ONLY WORKS ON DREG'S PICO2 PSRAM BOARD (RP2354A + PSRAM 6
 
 # TeraTerm / USB SERIAL COM CONFIG
 
+For everything to work properly, you need to configure Tera Term / your COM USB serial app like this:
+
 ![teratermconfig](stuff/images/teratermconfig.png) 
