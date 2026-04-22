@@ -1,8 +1,10 @@
 # Hardware Hacking CTF HardwareHackingES CON 2026 - RISCV Hazard3 (@Wren6991) Exploiting by @b1n4ri0 & @therealdreg
 
-[https://hardwarehacking.es/](https://hardwarehacking.es/)
+If you’re into hardware CTFs, here’s the first public challenge from HardwareHackingES2026 CON CTF featuring RISC-V RP2350 exploitation challenges (low level)
 
-CTF LIKE: [https://github.com/therealdreg/hcon2026hwctf](https://github.com/therealdreg/hcon2026hwctf)
+We’ve tried to make the challenge not too elitist or difficult, so that the hundreds of conference participants have a chance to solve the challenges. I hope we’ve managed to achieve that.
+
+[https://hardwarehacking.es/](https://hardwarehacking.es/)
 
 ![pico2psrambydreg](stuff/images/pico2psrambydreg.jpg)
 
@@ -83,7 +85,7 @@ Note: `picotool` interacts with RP2350 (and RP2040) devices only when they are i
 
 ## Using pre-built binary
 
-If you prefer to skip the build process, you can download the precompiled binary from the [official repository](https://github.com/raspberrypi/pico-sdk-tools/releases).
+If you prefer to skip the build process, you can download the precompiled binary from the https://github.com/raspberrypi/pico-sdk-tools/releases
 
 ```bash
 gunzip picotool-2.2.0-a4-x86_64-lin.tar.gz
@@ -197,7 +199,7 @@ With the patched processor definitions in place, follow these steps to load the 
 
 ## Automated Setup
 
-The `hcon26_rp2350-ctf_auto_setup.py` script is designed to automate the initial configuration and static analysis environment for firmware targeting the Raspberry Pi RP2350 (RISC-V Hazard3 core). This tool is specifically developed to support the reverse engineering tasks associated with the [**H-Con 2026 Hardware Hacking Challenge**](https://github.com/therealdreg/hcon2026hwctf).
+The `hcon26_rp2350-ctf_auto_setup.py` script is designed to automate the initial configuration and static analysis environment for firmware targeting the Raspberry Pi RP2350 (RISC-V Hazard3 core). This tool is specifically developed to support the reverse engineering tasks associated with the https://github.com/therealdreg/hcon2026hwctf
 
 Raw binary firmware inherently lacks the file headers and symbol tables required for automatic loading. This forces analysts to manually configure memory maps, entry points, and processor states before any code becomes readable. This tool automates that entire process, instantly preparing the binary for reverse engineering.
 
